@@ -12,3 +12,6 @@ b = "90.5"
 print(a + b, type(a + b))
 print(int(a) + float(b))
 
+score = 95
+print("成績 = " + str(score))
+
