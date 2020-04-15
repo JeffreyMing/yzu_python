@@ -37,3 +37,6 @@ print(type(c))
 age, name = 18, "Jeff"
 print(age, name)
 
+score = 75
+mark = score >= 60
+print(mark, type(mark))
