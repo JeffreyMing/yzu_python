@@ -19,3 +19,9 @@ print(n1, n2, n3, n4)
 #跳脫字元
 print("\"")
 print("A\n\tB")
+
+print("\""); print("A\n\tB")
+
+a = 100 + \
+    200 - 50 * 5 / 10
+
