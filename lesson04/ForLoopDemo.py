@@ -4,6 +4,7 @@ scores.append(70)
 print(scores)
 print(scores[0])  # 取得維度=0的內容
 print(len(scores))  # 取得數組長度(有幾筆資料)
+print(scores.index(90))
 
 for x in scores:
     print(scores.index(x), x)
