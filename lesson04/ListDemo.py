@@ -34,3 +34,9 @@ def score(po):  # 假設po = ['A', 9, 'J']
 
 print(poker[:3])
 print(score(poker[:3]))
+
+#元素是否還在數組中
+print('A' in poker)
+
+print(poker.pop())
+print(poker.pop(0))
