@@ -14,3 +14,12 @@ print('x=', x)
 print('y=', y)
 changeY(100)
 print('y=', y)
+
+
+z = [0]
+def changeZ(m, n):
+    m[0] = n
+
+print('z=', z)
+changeZ(z, 100)
+print('z=', z)
