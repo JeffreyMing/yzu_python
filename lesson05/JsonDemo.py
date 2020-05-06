@@ -8,7 +8,7 @@ print(type(obj))
 print(obj['國文'])
 print(obj.get('數學'))
 
-obj2 = json.loads(names)
+obj2 = json.loads(names)  # 將字串轉成json物件
 print(type(obj2))
 for st in obj2:
     print(st.get('name'), st.get('age'))
