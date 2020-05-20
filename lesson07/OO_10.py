@@ -10,7 +10,13 @@ class YoyoCard:
     def balance(self, money):
         self.__balance = self.__balance + money
 
+    @balance.deleter # 建立刪除balance
+    def balance(self):
+        del self.__balance
+
 card = YoyoCard()
 print(card.balance)
 card.balance = 100
+print(card.balance)
+del card.balance
 print(card.balance)
