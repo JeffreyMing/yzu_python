@@ -9,6 +9,8 @@ def input_number():
     except ValueError as e:
         print('資料輸入錯誤', e)
         input_number()
+    except Exception as e:
+        print('發生了一個料想不到的錯誤', e)
     else:
         print(z)
 
