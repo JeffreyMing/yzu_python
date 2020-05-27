@@ -1,6 +1,3 @@
-import sys
-import traceback
-
 x = 10
 
 try:
